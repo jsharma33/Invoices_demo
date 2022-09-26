@@ -1,0 +1,25 @@
+{
+  "name": "@paypalcorp/standard-integration",
+  "version": "1.0.0",
+  "main": "paypal-api.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "g": "^2.0.1",
+    "ngrok": "^4.3.1",
+    "node-fetch": "^3.2.1",
+    "paypal-rest-sdk": "^1.8.1",
+    "sqlite3": "^5.0.10"
+  }
+}
